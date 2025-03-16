@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckedListBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckedListBoxForm.Designer.cs">
+      <DependentUpon>CheckedListBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComboBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBoxForm.Designer.cs">
+      <DependentUpon>ComboBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimePickerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimePickerForm.Designer.cs">
+      <DependentUpon>DateTimePickerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,10 +76,86 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="LabelWithMust.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ListBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBoxForm.Designer.cs">
+      <DependentUpon>ListBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaskedTextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaskedTextBoxForm.Designer.cs">
+      <DependentUpon>MaskedTextBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthCalendarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthCalendarForm.Designer.cs">
+      <DependentUpon>MonthCalendarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDownForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericUpDownForm.Designer.cs">
+      <DependentUpon>NumericUpDownForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBoxForm.Designer.cs">
+      <DependentUpon>PictureBoxForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadioButtonCheckBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadioButtonCheckBoxForm.Designer.cs">
+      <DependentUpon>RadioButtonCheckBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RichTextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxForm.Designer.cs">
+      <DependentUpon>RichTextBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentInfo.cs" />
+    <Compile Include="TextBoxWithPlaceHolder.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="CheckedListBoxForm.resx">
+      <DependentUpon>CheckedListBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComboBoxForm.resx">
+      <DependentUpon>ComboBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePickerForm.resx">
+      <DependentUpon>DateTimePickerForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBoxForm.resx">
+      <DependentUpon>ListBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaskedTextBoxForm.resx">
+      <DependentUpon>MaskedTextBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthCalendarForm.resx">
+      <DependentUpon>MonthCalendarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDownForm.resx">
+      <DependentUpon>NumericUpDownForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBoxForm.resx">
+      <DependentUpon>PictureBoxForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -73,6 +167,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RadioButtonCheckBoxForm.resx">
+      <DependentUpon>RadioButtonCheckBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RichTextBoxForm.resx">
+      <DependentUpon>RichTextBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -49,5 +49,15 @@ namespace WinformStudy
         {
             
         }
+
+        private void textBoxWithPlaceHolder1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbWithph_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
