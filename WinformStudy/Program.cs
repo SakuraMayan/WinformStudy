@@ -16,7 +16,7 @@ namespace WinformStudy
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TimerForm());
+            Application.Run(new ProgressBarForm());
         }
     }
 }
